@@ -1,0 +1,5 @@
+## Requirements
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
