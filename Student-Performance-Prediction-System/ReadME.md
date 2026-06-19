@@ -1,1 +1,18 @@
-Student Performance Prediction System – An AI/ML project that analyzes attendance, study hours, and marks to predict student academic performance using Machine Learning algorithms. Developed as part of the CodeVedX AI/ML Internship Program.
+# Student Performance Prediction System
+
+## Description
+A Machine Learning project that predicts student performance using attendance, study hours, and marks.
+
+## Features
+- Student performance prediction
+- Accuracy evaluation
+- User input prediction
+- Machine Learning model
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-Learn
+
+## Author
+S Mythili
