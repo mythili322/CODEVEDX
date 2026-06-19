@@ -1,32 +1,56 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+import matplotlib.pyplot as plt
 
-# Load dataset
-data = pd.read_csv("data.csv")
+data = pd.read_csv("dataset.csv")
 
-X = data[['attendance', 'study_hours', 'marks']]
-y = data['performance']
+print("\nDataset Information:")
+data.info()
 
-# Split data
+print("\nMissing Values:")
+print(data.isnull().sum())
+
+data = data.dropna()
+
+print("\nDataset Statistics:")
+print(data.describe())
+
+
+X = data[["attendance", "marks", "study_hours"]]
+y = data["final_score"]
+
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
 
-# Train model
-model = DecisionTreeClassifier()
+model = LinearRegression()
 model.fit(X_train, y_train)
 
-# Test accuracy
-y_pred = model.predict(X_test)
-print("Model Accuracy:", accuracy_score(y_test, y_pred) * 100)
+predictions = model.predict(X_test)
+accuracy = r2_score(y_test, predictions)
 
-# User Input
+print("Student Performance Prediction System")
+print("-" * 40)
+print("Model Accuracy:", round(accuracy, 2))
+
 attendance = float(input("Enter Attendance (%): "))
-study_hours = float(input("Enter Study Hours: "))
-marks = float(input("Enter Current Marks: "))
+marks = float(input("Enter Marks: "))
+study_hours = float(input("Enter Study Hours per Day: "))
 
-prediction = model.predict([[attendance, study_hours, marks]])
+input_data = pd.DataFrame({
+    "attendance": [attendance],
+    "marks": [marks],
+    "study_hours": [study_hours]
+})
 
-print("Predicted Performance:", prediction[0])
+result = model.predict(input_data)
+
+print("\nPredicted Final Score:", round(result[0], 2))
+
+plt.scatter(data["marks"], data["final_score"])
+plt.xlabel("Marks")
+plt.ylabel("Final Score")
+plt.title("Student Performance Analysis")
+plt.show()
