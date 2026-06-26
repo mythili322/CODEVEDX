@@ -1,1 +1,24 @@
-The AI-Based Fake News Detection Tool is a Machine Learning project that classifies news articles as Real or Fake using Natural Language Processing (NLP). It utilizes TF-IDF Vectorization and a trained Naive Bayes model to analyze news text and make accurate predictions. The project demonstrates text preprocessing, feature extraction, model training, and classification using Python and Scikit-learn. It is designed as a simple and effective solution for detecting misinformation.
+# AI-Based Fake News Detection Tool
+
+## Description
+A Machine Learning and NLP project that detects whether a news headline is REAL or FAKE using TF-IDF Vectorization and Naive Bayes Classification.
+
+## Features
+- News text classification
+- Fake/Real prediction
+- NLP using TF-IDF
+- Trained model saved with Joblib
+
+## Technologies
+- Python
+- Pandas
+- Scikit-Learn
+- Joblib
+
+## How to Run
+pip install -r requirements.txt
+
+python fake_news_detection.py
+
+## Author
+S Mythili
