@@ -18,7 +18,7 @@ A Machine Learning and NLP project that detects whether a news headline is REAL 
 ## How to Run
 pip install -r requirements.txt
 
-python fake_news_detection.py
+python main.py
 
 ## Author
 S Mythili
