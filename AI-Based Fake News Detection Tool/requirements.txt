@@ -1,5 +1,4 @@
-##Requirements
- pandas
- scikit-learn
- joblib
- matplotlib
+pandas
+scikit-learn
+joblib
+matplotlib
