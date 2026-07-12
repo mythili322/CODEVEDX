@@ -4,10 +4,10 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
-# Load dataset
+
 data = pd.read_csv("courses.csv")
 
-# Encode categorical data
+
 interest_encoder = LabelEncoder()
 skill_encoder = LabelEncoder()
 course_encoder = LabelEncoder()
@@ -18,15 +18,15 @@ data["course_encoded"] = course_encoder.fit_transform(
     data["recommended_course"]
 )
 
-# Features and Target
+
 X = data[["interest_encoded", "skill_encoded"]]
 y = data["course_encoded"]
 
-# Train model
+
 model = DecisionTreeClassifier()
 model.fit(X, y)
 
-# Accuracy Evaluation
+
 predictions = model.predict(X)
 accuracy = accuracy_score(y, predictions)
 
@@ -34,7 +34,7 @@ print("Smart Recommendation System")
 print("-" * 40)
 print("Model Accuracy:", round(accuracy * 100, 2), "%")
 
-# User Input
+
 interest = input("Enter Interest: ")
 skill = input("Enter Skill Level (Beginner/Intermediate/Advanced): ")
 
@@ -54,9 +54,7 @@ recommended_course = course_encoder.inverse_transform(prediction)
 print("\nRecommended Course:")
 print(recommended_course[0])
 
-# -----------------------------
-# Course Popularity Bar Chart
-# -----------------------------
+
 
 course_counts = data["interest"].value_counts()
 
@@ -69,9 +67,7 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
-# -----------------------------
-# Domain Distribution Pie Chart
-# -----------------------------
+
 
 domain_counts = data["interest"].str.split().str[0].value_counts()
 
