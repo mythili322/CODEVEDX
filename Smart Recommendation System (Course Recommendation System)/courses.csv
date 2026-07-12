@@ -1,0 +1,34 @@
+interest,skill_level,recommended_course
+AI Beginner,Beginner,Introduction to Machine Learning
+AI Intermediate,Intermediate,Deep Learning Fundamentals
+AI Advanced,Advanced,Advanced Machine Learning
+Data Science Beginner,Beginner,Python for Data Science
+Data Science Intermediate,Intermediate,Data Analysis with Python
+Data Science Advanced,Advanced,Advanced Data Science Techniques
+Web Development Beginner,Beginner,HTML CSS JavaScript Basics
+Web Development Intermediate,Intermediate,React.js Development
+Web Development Advanced,Advanced,Full Stack Web Development
+Cyber Security Beginner,Beginner,Introduction to Cyber Security
+Cyber Security Intermediate,Intermediate,Ethical Hacking Basics
+Cyber Security Advanced,Advanced,Advanced Network Security
+UI UX Design Beginner,Beginner,UI UX Design Fundamentals
+UI UX Design Intermediate,Intermediate,Figma for UI UX Designers
+UI UX Design Advanced,Advanced,Advanced User Experience Design
+Graphic Design Beginner,Beginner,Introduction to Graphic Design
+Graphic Design Intermediate,Intermediate,Adobe Photoshop and Illustrator
+Graphic Design Advanced,Advanced,Professional Graphic Design Masterclass
+Generative AI Beginner,Beginner,Introduction to Generative AI
+Generative AI Intermediate,Intermediate,Prompt Engineering with AI Models
+Generative AI Advanced,Advanced,Building Generative AI Applications
+Computer Vision Beginner,Beginner,Introduction to Computer Vision
+Computer Vision Intermediate,Intermediate,Image Processing with OpenCV
+Computer Vision Advanced,Advanced,Advanced Computer Vision Techniques
+Natural Language Processing Beginner,Beginner,NLP Fundamentals
+Natural Language Processing Intermediate,Intermediate,Text Processing with Python
+Natural Language Processing Advanced,Advanced,NLP with Transformers
+Cloud Computing Beginner,Beginner,Cloud Computing Basics
+Cloud Computing Intermediate,Intermediate,AWS Cloud Practitioner
+Cloud Computing Advanced,Advanced,Cloud Architecture and DevOps
+Mobile App Development Beginner,Beginner,Android Development Basics
+Mobile App Development Intermediate,Intermediate,Flutter App Development
+Mobile App Development Advanced,Advanced,Advanced Mobile Application Development
