@@ -1,28 +1,125 @@
 interest,skill_level,recommended_course
 AI,Beginner,Introduction to Machine Learning
+AI,Beginner,Python for AI
 AI,Intermediate,Deep Learning Fundamentals
+AI,Intermediate,Neural Networks with TensorFlow
+AI,Intermediate,Computer Vision using Python
 AI,Advanced,Advanced Machine Learning
+AI,Advanced,Reinforcement Learning
+AI,Advanced,AI for Healthcare
+AI,Advanced,AI Research Methods
+
 Data Science,Beginner,Python for Data Science
+Data Science,Beginner,Statistics for Data Science
 Data Science,Intermediate,Data Analysis with Python
+Data Science,Intermediate,Data Visualization with Tableau
+Data Science,Intermediate,SQL for Data Analytics
 Data Science,Advanced,Advanced Data Science Techniques
-Web Development,Beginner,HTML CSS JavaScript Basics
-Web Development,Intermediate,React Development
-Web Development,Advanced,Full Stack Web Development
+Data Science,Advanced,Big Data Analytics
+Data Science,Advanced,Predictive Analytics
+
+Generative AI,Beginner,Introduction to Generative AI
+Generative AI,Beginner,AI Content Creation Basics
+Generative AI,Intermediate,Prompt Engineering with AI Models
+Generative AI,Intermediate,Building AI Assistants
+Generative AI,Intermediate,Large Language Models Fundamentals
+Generative AI,Advanced,Building Generative AI Applications
+Generative AI,Advanced,RAG Systems Development
+Generative AI,Advanced,Fine Tuning Large Language Models
+
+Cloud Computing,Beginner,Cloud Computing Basics
+Cloud Computing,Beginner,Introduction to AWS
+Cloud Computing,Intermediate,AWS Cloud Practitioner
+Cloud Computing,Intermediate,Microsoft Azure Fundamentals
+Cloud Computing,Intermediate,Google Cloud Essentials
+Cloud Computing,Advanced,Cloud Architecture and DevOps
+Cloud Computing,Advanced,Kubernetes Administration
+Cloud Computing,Advanced,Multi Cloud Solutions Design
+
 Cyber Security,Beginner,Introduction to Cyber Security
+Cyber Security,Beginner,Network Security Fundamentals
 Cyber Security,Intermediate,Ethical Hacking Basics
+Cyber Security,Intermediate,Penetration Testing
+Cyber Security,Intermediate,Security Operations Center Fundamentals
 Cyber Security,Advanced,Advanced Network Security
+Cyber Security,Advanced,Digital Forensics
+Cyber Security,Advanced,Malware Analysis
+
+Web Development,Beginner,HTML CSS JavaScript Basics
+Web Development,Beginner,Responsive Web Design
+Web Development,Intermediate,React Development
+Web Development,Intermediate,Node.js Development
+Web Development,Intermediate,Backend Development with Express
+Web Development,Advanced,Full Stack Web Development
+Web Development,Advanced,MERN Stack Development
+
+Mobile App Development,Beginner,Android Development Basics
+Mobile App Development,Beginner,Kotlin Fundamentals
+Mobile App Development,Intermediate,Flutter App Development
+Mobile App Development,Intermediate,React Native Development
+Mobile App Development,Advanced,Advanced Mobile Application Development
+Mobile App Development,Advanced,Cross Platform App Architecture
+
+Computer Vision,Beginner,Introduction to Computer Vision
+Computer Vision,Beginner,Image Processing Basics
+Computer Vision,Intermediate,Image Processing with OpenCV
+Computer Vision,Intermediate,Object Detection with YOLO
+Computer Vision,Advanced,Advanced Computer Vision Techniques
+Computer Vision,Advanced,3D Vision Systems
+
+Natural Language Processing,Beginner,NLP Fundamentals
+Natural Language Processing,Beginner,Text Analytics Basics
+Natural Language Processing,Intermediate,Text Processing with Python
+Natural Language Processing,Intermediate,Sentiment Analysis
+Natural Language Processing,Advanced,NLP with Transformers
+Natural Language Processing,Advanced,Conversational AI Systems
+
+DevOps,Beginner,Introduction to DevOps
+DevOps,Beginner,Linux for DevOps
+DevOps,Intermediate,Docker Fundamentals
+DevOps,Intermediate,CI CD Pipelines
+DevOps,Advanced,Kubernetes for DevOps
+DevOps,Advanced,Infrastructure as Code with Terraform
+
 UI UX Design,Beginner,UI UX Design Fundamentals
+UI UX Design,Beginner,Introduction to Design Thinking
 UI UX Design,Intermediate,Figma for UI UX Designers
+UI UX Design,Intermediate,Wireframing and Prototyping
 UI UX Design,Advanced,Advanced User Experience Design
+
+Software Testing,Beginner,Introduction to Software Testing
+Software Testing,Intermediate,Selenium Automation Testing
+Software Testing,Intermediate,API Testing with Postman
+Software Testing,Advanced,Performance Testing with JMeter
+
+Blockchain,Beginner,Blockchain Fundamentals
+Blockchain,Intermediate,Smart Contracts Development
+Blockchain,Advanced,Decentralized Applications Development
+
+Internet of Things,Beginner,IoT Fundamentals
+Internet of Things,Intermediate,IoT with Raspberry Pi
+Internet of Things,Advanced,Industrial IoT Systems
+
+Game Development,Beginner,Game Development with Unity
+Game Development,Intermediate,2D Game Development
+Game Development,Advanced,3D Game Development
+
 Graphic Design,Beginner,Introduction to Graphic Design
 Graphic Design,Intermediate,Adobe Photoshop and Illustrator
 Graphic Design,Advanced,Professional Graphic Design Masterclass
-Generative AI,Beginner,Introduction to Generative AI
-Generative AI,Intermediate,Prompt Engineering with AI Models
-Generative AI,Advanced,Building Generative AI Applications
-Cloud Computing,Beginner,Cloud Computing Basics
-Cloud Computing,Intermediate,AWS Cloud Practitioner
-Cloud Computing,Advanced,Cloud Architecture and DevOps
-Mobile App Development,Beginner,Android Development Basics
-Mobile App Development,Intermediate,Flutter App Development
-Mobile App Development,Advanced,Advanced Mobile Application Development
+
+AR VR Development,Beginner,Introduction to Augmented Reality
+AR VR Development,Intermediate,Virtual Reality Development
+AR VR Development,Advanced,Advanced AR VR Applications
+
+Robotics,Beginner,Introduction to Robotics
+Robotics,Intermediate,Robot Programming Basics
+Robotics,Advanced,Autonomous Robotics Systems
+
+Embedded Systems,Beginner,Embedded Systems Basics
+Embedded Systems,Intermediate,Microcontroller Programming
+Embedded Systems,Advanced,RTOS Development
+
+Quantum Computing,Beginner,Introduction to Quantum Computing
+Quantum Computing,Intermediate,Quantum Algorithms
+Quantum Computing,Advanced,Quantum Machine Learning
